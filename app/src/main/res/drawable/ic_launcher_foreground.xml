@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clapperboard body -->
+    <path
+        android:pathData="M30,44 h48 a6,6 0 0 1 6,6 v26 a6,6 0 0 1 -6,6 h-48 a6,6 0 0 1 -6,-6 v-26 a6,6 0 0 1 6,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="44"
+                android:endX="84"
+                android:endY="82"
+                android:type="linear">
+                <item android:color="#7B2CBF" android:offset="0.0" />
+                <item android:color="#3A0CA3" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Clapper top stick -->
+    <path
+        android:pathData="M26,35 h56 a3,3 0 0 1 3,3 v5 a0,0 0 0 1 0,0 h-62 a0,0 0 0 1 0,0 v-5 a3,3 0 0 1 3,-3 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="35"
+                android:endX="84"
+                android:endY="43"
+                android:type="linear">
+                <item android:color="#F72585" android:offset="0.0" />
+                <item android:color="#7209B7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Clapper stripes -->
+    <path
+        android:pathData="M34,35 l6,8 h4 l-6,-8 z M48,35 l6,8 h4 l-6,-8 z M62,35 l6,8 h4 l-6,-8 z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Center Play Icon -->
+    <path
+        android:pathData="M48,53 L64,63 L48,73 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="53"
+                android:endX="64"
+                android:endY="73"
+                android:type="linear">
+                <item android:color="#00F5D4" android:offset="0.0" />
+                <item android:color="#FFFFFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- AI Sparkle Top Right -->
+    <path
+        android:pathData="M78,28 Q78,34 84,34 Q78,34 78,40 Q78,34 72,34 Q78,34 78,28 Z"
+        android:fillColor="#FFD166" />
+
+    <!-- AI Sparkle Mini -->
+    <path
+        android:pathData="M28,27 Q28,30 31,30 Q28,30 28,33 Q28,30 25,30 Q28,30 28,27 Z"
+        android:fillColor="#00F5D4" />
+
+    <!-- AI Sparkle Bottom Left -->
+    <path
+        android:pathData="M25,75 Q25,78 28,78 Q25,78 25,81 Q25,78 22,78 Q25,78 25,75 Z"
+        android:fillColor="#FF70A6" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "AI Video Generator",
+  "description": "Generate cinematic AI videos from any script or story with customizable ratios (9:16, 16:9), durations (5s, 10s, 30s), artistic styles, character selection, voiceover narration, and dynamic motion scenes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
